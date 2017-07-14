@@ -1,3 +1,38 @@
 body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
   background: orange;
+  margin: 0;
+  padding: 20px 0px 20px 0px;
+  letter-spacing: 5px;
+}
+
+img {
+  display: block;
+  float: left;
+  border-style: double;
+  border-width: 10px;
+  border-color: orange;
+}
+
+nav {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
 }
