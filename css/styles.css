@@ -1,6 +1,10 @@
 body {
   padding: 0;
   margin: 0;
+  background-image: url("../images/squirrel-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 15% 100%;
 }
 
 header {
@@ -15,9 +19,13 @@ h1 {
   margin: auto;
   padding: 20px 0px 20px 0px;
   border-style: dotted;
-  border width: 5px;
+  border-width: 5px;
   border-color: white;
   letter-spacing: 5px;
+}
+
+main {
+  
 }
 
 img {
@@ -56,8 +64,8 @@ a:visited {
 }
 
 #list {
-  padding: 10px;
   float: right;
+  margin-right: 30px;
   width: 30%;
 }
 
